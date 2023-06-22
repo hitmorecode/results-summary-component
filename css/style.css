@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-light-red: hsl(0, 100%, 67%);
+  --primary-orangey-yellow: hsl(39, 100%, 56%);
+  --primvary-green-teal: hsl(166, 100%, 37%);
+  --primvary-cobalt-blue: hsl(234, 85%, 45%);
+  --gradient-bg-light-slate-blue: hsl(252, 100%, 67%); /* background */
+  --gradient-bg-light-royal-blue: hsl(241, 81%, 54%); /* background */
+  --gradient-circle-violet-blue: hsla(256, 72%, 46%, 1); /* circle */
+  --gradient-circle-persian-blue: hsla(241, 72%, 46%, 0); /* circle */
+  --neutral-white: hsl(0, 0%, 100%);
+  --neutral-pale-blue: hsl(221, 100%, 96%);
+  --neutral-light-lavender: hsl(241, 100%, 89%);
+  --neutral-dark-gray-blue: hsl(224, 30%, 27%);
+  --font-weight-500: 500;
+  --font-weight-700: 700;
+  --font-weight-800: 800;
+  --alpha: 0.5;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Hanken Grotesk", Arial, Helvetica, sans-serif;
+  background-color: var(--neutral-pale-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 0 0 20px 20px;
+}
+
+.result {
+  width: 375px;
+  height: 356px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-image: linear-gradient(var(--gradient-bg-light-slate-blue), var(--gradient-bg-light-royal-blue));
+  padding: 30px 60px;
+  color: #fff;
+  border-radius: 0 0 20px 20px;
+}
+
+
+.result h1 {
+  font-size: 18px;
+}
+
+.result p {
+  text-align: center;
+}
+
+.score h2 {
+  font-size: 56px;
+}
+
+.score {
+  width: 141px;
+  height: 141px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background-image: linear-gradient(var(--gradient-circle-violet-blue), var(--gradient-circle-persian-blue));
+}
+
+
+.summary {
+  width: 375px;
+  height: 453px;
+  background-color: var(--gradient-light-slate-blue);
+  padding: 30px;
+  background-color: #fff;
+}
+
+.summary h2 {
+  margin-bottom: 19px;
+  font-size: 18px;
+  color: var(--neutral-dark-gray-blue);
+}
+
+.summary-card {
+  display: flex;
+  align-items: center;
+  width: 315px;
+  height: 56px;
+  padding: 0 17px;
+  margin-bottom: 16px;
+  border-radius: 10px;
+}
+
+.summary-card {
+  font-weight: var(--font-weight-700);
+}
+
+.reaction {
+  background-color: hsla(0, 100%, 67%, .1);
+  color: var(--primary-light-red);
+}
+
+.memory {
+  background-color: hsla(39, 100%, 56%, .1);
+  color: var(--primary-orangey-yellow);
+}
+
+.verbal {
+  background-color: hsla(166, 100%, 37%, .1);
+  color: var(--primvary-green-teal);
+}
+
+.visual {
+  margin-bottom: 23px;
+  background-color: hsla(234, 85%, 45%, .1);
+  color: var(--primvary-cobalt-blue);
+}
+
+.summary-card img {
+  width: 20px;
+  margin-right: 16px;
+}
+
+.user-score {
+  margin-left: auto;
+  color: var(--neutral-dark-gray-blue);
+}
+
+.user-score span {
+  color: hsl(224, 30%, 27%, .5);
+}
+
+button {
+  width: 315px;
+  height: 56px;
+  border: none;
+  background-color: var(--neutral-dark-gray-blue);
+  color: #fff;
+  border-radius: 60px;
+  font-size: 18px;
+  font-weight: var(--font-weight-500);
+  letter-spacing: 1.5px;
+  transition: background-color 150ms ease-in-out;
+}
+
+button:hover {
+  background-color: var(--gradient-bg-light-royal-blue);
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 750px) {
+  .card {
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 0 10px 28px hsla(0, 0%, 0%, .20);
+  }
+
+  .result {
+    height: 512px;
+    width: 368px;
+    border-radius: 20px 20px;
+  }
+
+  .result h2 {
+    font-size: 32px;
+  }
+
+  .result p {
+    padding: 0 10px;
+  }
+
+  .score {
+    width: 200px;
+    height: 200px;
+  }
+
+  .score h2 {
+    font-size: 70px;
+  }
+
+  .summary {
+    width: 368px;
+    height: 512px;
+    border-radius: 0 20px 20px 0;
+    padding: 40px;
+  }
+
+  .summary h2 {
+    font-size: 24px;
+    margin-bottom: 28px;
+  }
+
+  .summary-card {
+    width: 288px;
+    margin-bottom: 19px;
+  }
+
+  .visual {
+    margin-bottom: 41px;
+  }
+
+  button {
+    width: 288px;
+  }
+}
