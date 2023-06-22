@@ -32,9 +32,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [HTML Solution](https://github.com/hitmorecode/single_price_grid_component/blob/main/index.html)
-- Solution URL: [CSS Solution](https://github.com/hitmorecode/single_price_grid_component/blob/main/css/style.css)
-- Live Site URL: [Live site](https://hitmorecode.github.io/single_price_grid_component/)
+- Solution URL: [HTML Solution](https://github.com/hitmorecode/results-summary-component/blob/main/index.html)
+- Solution URL: [CSS Solution](https://github.com/hitmorecode/results-summary-component/blob/main/css/style.css)
+- Live Site URL: [Live site](https://hitmorecode.github.io/results-summary-component/)
 
 ## My process
 
