@@ -45,6 +45,10 @@ Users should be able to:
 - Flexbox
 
 
+### Continued development
+
+
+
 ### Useful resources
 
 - [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This is an amazing article which helped me getting started with flexbox. I'd recommend it to anyone still learning this concept.
