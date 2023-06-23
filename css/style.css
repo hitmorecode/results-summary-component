@@ -22,6 +22,7 @@
   --font-weight-500: 500;
   --font-weight-700: 700;
   --font-weight-800: 800;
+  font-size: 62.5%;
 }
 
 body {
@@ -31,28 +32,29 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.6rem;
 }
 
 .card {
   background-color: #fff;
-  border-radius: 0 0 20px 20px;
+  border-radius: 0 0 2rem 2rem;
 }
 
 .result {
-  width: 375px;
-  height: 356px;
+  width: 37.5rem;
+  height: 35.6rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   background-image: linear-gradient(var(--gradient-bg-light-slate-blue), var(--gradient-bg-light-royal-blue));
-  padding: 30px 60px;
+  padding: 3rem 6rem;
   color: #fff;
-  border-radius: 0 0 20px 20px;
+  border-radius: 0 0 2rem 2rem;
 }
 
 .result h1 {
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 .result p {
@@ -60,12 +62,12 @@ body {
 }
 
 .score h2 {
-  font-size: 56px;
+  font-size: 5.6rem;
 }
 
 .score {
-  width: 141px;
-  height: 141px;
+  width: 14.1rem;
+  height: 14.1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -76,27 +78,27 @@ body {
 
 
 .summary {
-  width: 375px;
-  height: 453px;
+  width: 37.5rem;
+  height: 45.3rem;
   background-color: var(--gradient-light-slate-blue);
-  padding: 30px;
+  padding: 3rem;
   background-color: #fff;
 }
 
 .summary h2 {
-  margin-bottom: 19px;
-  font-size: 18px;
+  margin-bottom: 1.9rem;
+  font-size: 1.8rem;
   color: var(--neutral-dark-gray-blue);
 }
 
 .summary-card {
   display: flex;
   align-items: center;
-  width: 315px;
-  height: 56px;
+  width: 31.5rem;
+  height: 5.6rem;
   padding: 0 17px;
-  margin-bottom: 16px;
-  border-radius: 10px;
+  margin-bottom: 1.6rem;
+  border-radius: 1rem;
 }
 
 .summary-card {
@@ -125,8 +127,8 @@ body {
 }
 
 .summary-card img {
-  width: 20px;
-  margin-right: 16px;
+  width: 2rem;
+  margin-right: 1.6rem;
 }
 
 .user-score {
@@ -139,15 +141,15 @@ body {
 }
 
 button {
-  width: 315px;
-  height: 56px;
+  width: 31.5rem;
+  height: 5.6rem;
   border: none;
   background-color: var(--neutral-dark-gray-blue);
   color: #fff;
-  border-radius: 60px;
-  font-size: 18px;
+  border-radius: 6rem;
+  font-size: 1.8rem;
   font-weight: var(--font-weight-500);
-  letter-spacing: 1.5px;
+  letter-spacing: 0.15rem;
   transition: background-color 150ms ease-in-out;
 }
 
@@ -156,58 +158,58 @@ button:hover {
   cursor: pointer;
 }
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 75rem) {
   .card {
-    border-radius: 20px;
+    border-radius: 2rem;
     display: flex;
-    box-shadow: 0 10px 28px hsla(0, 0%, 0%, .20);
+    box-shadow: 0 1rem 2.8rem hsla(0, 0%, 0%, .20);
   }
 
   .result {
-    height: 512px;
-    width: 368px;
-    border-radius: 20px 20px;
+    height: 51.2rem;
+    width: 36.8rem;
+    border-radius: 2rem 2rem;
   }
 
   .result h2 {
-    font-size: 32px;
+    font-size: 3.2rem;
   }
 
   .result p {
-    padding: 0 10px;
+    padding: 0 1rem;
   }
 
   .score {
-    width: 200px;
-    height: 200px;
+    width: 20rem;
+    height: 20rem;
   }
 
   .score h2 {
-    font-size: 70px;
+    font-size: 7rem;
   }
 
   .summary {
-    width: 368px;
-    height: 512px;
-    border-radius: 0 20px 20px 0;
-    padding: 40px;
+    width: 36.8rem;
+    height: 51.2rem;
+    border-radius: 0 2rem 2rem 0;
+    padding: 4rem;
   }
 
   .summary h2 {
-    font-size: 24px;
-    margin-bottom: 28px;
+    font-size: 2.4rem;
+    margin-bottom: 2.8rem;
   }
 
   .summary-card {
-    width: 288px;
-    margin-bottom: 19px;
+    width: 28.8rem;
+    margin-bottom: 1.9rem;
   }
 
   .visual {
-    margin-bottom: 41px;
+    margin-bottom: 4.1rem;
   }
 
   button {
-    width: 288px;
+    width: 28.8rem;
   }
 }
